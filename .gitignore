@@ -1,0 +1,18 @@
+# Compiled output
+bin/
+*.class
+
+# Java build artifacts and logs
+*.jar
+!lib/**/*.jar
+*.log
+hs_err_pid*
+
+# macOS
+.DS_Store
+
+# IDEs (keep shared VS Code project settings)
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.iml
