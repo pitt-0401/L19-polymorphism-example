@@ -17,7 +17,7 @@ public abstract class Animal {
     }
 
     // getters
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
@@ -31,6 +31,18 @@ public abstract class Animal {
 
     // Behavior
     public abstract void makeSound(); // There is no "generic" sound all animals make
+
+    // public void makeSound(String sound) {
+    //     System.out.println(sound);
+    // }
+
+    // public String makeSound(String sound, boolean isLoud) {
+    //     return sound;
+    // }
+
+    // public void makeSound(String sound, int times) {
+    //     System.out.println(sound);
+    // }
 
     @Override
     public String toString() {
